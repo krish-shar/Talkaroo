@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <div className="grid grid-cols-2 h-20 border-b-2 border-black/20 ">
             <div className="flex items-center justify-start pl-4">
-                <Image src={"/talkaroo-logo.jpg"} width={40} height={20}/>
+                <Image src={"/talkaroo-logo.jpg"} width={40} height={20} alt="talkaroo"/>
 
                 <div className="text-primary text-xl font-semibold px-3">
                   Talkaroo
